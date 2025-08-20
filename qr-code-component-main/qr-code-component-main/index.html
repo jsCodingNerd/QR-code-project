@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.google.com/specimen/Outfit">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;;
+    }
+
+    .card{
+      padding: 20px;
+      background-color: pink;
+      width: 42vh;
+      height: 55vh;
+      font-size: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .card p{
+      font-size: 15px;
+       font-family: 'Outfit', sans-serif;
+    }
+
+    .qr-image{
+      height: 30vh;
+      width: 30vh;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="./images/image-qr-code.png" class="qr-image"><br>
+    <h1>Improve your front end skils by building projects.</h1>
+    <p>Scan the qr code to visit frontend mentor and take your coding skills to next level.</p>
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
