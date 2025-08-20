@@ -1,36 +1,42 @@
+/* Page background */
+body {
+  background-color: hsl(212, 45%, 89%); /* soft blue-gray */
+  font-family: Arial, Helvetica, sans-serif; /* clean font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* centers the card */
+  margin: 0;
+}
 
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+/* Card container */
+.card {
+  background: white; /* clean white card */
+  border-radius: 15px; /* smooth corners */
+  padding: 16px; /* inner spacing */
+  width: 300px; /* fixed width */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  text-align: center; /* centers text */
+}
 
-    body{
-      background: #f5f5f5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;;
-    }
+/* QR Image */
+.card img {
+  width: 100%; /* make it fit card */
+  border-radius: 10px; /* round edges */
+  margin-bottom: 15px; /* space under image */
+}
 
-    .card{
-      padding: 20px;
-      background-color: pink;
-      width: 42vh;
-      height: 55vh;
-      font-size: 10px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      font-family: 'Outfit', sans-serif;
-    }
+/* Heading text */
+.card-text h1 {
+  font-size: 0.5rem;
+  font-weight: 400;
+  color: hsl(218, 44%, 22%); /* dark gray/blue */
+  margin: 10px 0;
+}
 
-    .card p{
-      font-size: 15px;
-       font-family: 'Outfit', sans-serif;
-    }
-
-    .qr-image{
-      height: 30vh;
-      width: 30vh;
-      margin-bottom: 5px;
-    }
+/* Paragraph */
+.card-text p {
+  font-size: 0.9rem;
+  color: hsl(220, 15%, 55%); /* lighter gray */
+  line-height: 1.4;
+}
